@@ -25,12 +25,12 @@ A simple, console-based Banking Management System developed in C++ as part of th
 
 # Features
 
-Customer Account Creation: Automatically generates a unique customer ID and a sequential account number (starting from 1001) for every new user[cite: 1].
-Deposit System : Allows users to deposit positive amounts into their specified bank accounts with instant balance updates[cite: 1].
-Withdrawal System : Validates withdrawal requests to ensure sufficient funds and positive amounts before updating the account balance[cite: 1].
-Fund Transfers : Facilitates secure money transfers between two different accounts, automatically logging transfer-in and transfer-out transactions[cite: 1].
-Transaction History Tracking : Keeps a detailed ledger of recent transactions (deposits, withdrawals, and transfers) with timestamps or balance states[cite: 1].
-Interactive Console Menu: Provides an easy-to-navigate user interface to perform all banking operations seamlessly[cite: 1].
+Customer Account Creation: Automatically generates a unique customer ID and a sequential account number (starting from 1001) for every new user.
+Deposit System : Allows users to deposit positive amounts into their specified bank accounts with instant balance updates.
+Withdrawal System : Validates withdrawal requests to ensure sufficient funds and positive amounts before updating the account balance.
+Fund Transfers : Facilitates secure money transfers between two different accounts, automatically logging transfer-in and transfer-out transactions.
+Transaction History Tracking : Keeps a detailed ledger of recent transactions (deposits, withdrawals, and transfers) with timestamps or balance states.
+Interactive Console Menu: Provides an easy-to-navigate user interface to perform all banking operations seamlessly.
 
 ---
 
