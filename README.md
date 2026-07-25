@@ -5,12 +5,10 @@ This program helps users calculate their Grade Point Average (GPA) or Cumulative
 # 🛠️Features
 # Dynamic Input:
 Asks the user for the total number of courses taken.
-Grade & Credit Mapping:
 
-Takes individual course grades (e.g., 4.0, 3.3, 3.0) and credit hours as input.
-Automated Calculation:
+Grade & Credit Mapping:Takes individual course grades (e.g., 4.0, 3.3, 3.0) and credit hours as input.
 
-Computes the final GPA/CGPA efficiently using arrays and loops.
+Automated Calculation:Computes the final GPA/CGPA efficiently using arrays and loops.
 💻 Code Structure
 # Language: C++
 File Included: CGPA calculator.cpp
