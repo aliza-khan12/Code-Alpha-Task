@@ -47,17 +47,13 @@ Interactive Console Menu: Provides an easy-to-navigate user interface to perform
 
 The project is structured around four primary classes:
 
-1. Transaction :
-2.
-3.   Represents individual financial events, tracking the type of transaction (Deposit, Withdraw, Transfer-In, Transfer-Out), the amount, and the resulting balance
-4.   
-5. Account :Manages individual account balances, handles deposit/withdrawal logic, and maintains a vector-based history of transactions
-6. 
-7. Customer :
-8.
-9.   Links personal customer details (ID and name) with their corresponding Account object
-10.   
-11. Bank :Acts as the controller/manager class handling the collection of customers, search functionality, and overall banking operations (creation, deposits, withdrawals, and transfers)
+1. Transaction: Represents individual financial events, tracking the type of transaction (Deposit, Withdraw, Transfer-In, Transfer-Out), the amount, and the resulting balance
+
+2. Account: Manages individual account balances, handles deposit/withdrawal logic, and maintains a vector-based history of transactions
+   
+3.Customer: Links personal customer details (ID and name) with their corresponding Account object
+   
+4. Bank: Acts as the controller/manager class handling the collection of customers, search functionality, and overall banking operations (creation, deposits, withdrawals, and transfers)
 
 ---
 
