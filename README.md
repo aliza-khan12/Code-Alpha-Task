@@ -2,12 +2,15 @@
 Welcome to my repository for the Code Alpha internship! This project is a simple console-based CGPA Calculator written in C++.
 # About the Project
 This program helps users calculate their Grade Point Average (GPA) or Cumulative Grade Point Average (CGPA) based on the number of courses, grades received, and their respective credit hours.
-🛠️ Features
+# 🛠️Features
 # Dynamic Input:
 Asks the user for the total number of courses taken.
 Grade & Credit Mapping:
+
 Takes individual course grades (e.g., 4.0, 3.3, 3.0) and credit hours as input.
-Automated Calculation: Computes the final GPA/CGPA efficiently using arrays and loops.
+Automated Calculation:
+
+Computes the final GPA/CGPA efficiently using arrays and loops.
 💻 Code Structure
 # Language: C++
 File Included: CGPA calculator.cpp
@@ -26,10 +29,16 @@ A simple, console-based Banking Management System developed in C++ as part of th
 # Features
 
 Customer Account Creation: Automatically generates a unique customer ID and a sequential account number (starting from 1001) for every new user.
-Deposit System : Allows users to deposit positive amounts into their specified bank accounts with instant balance updates.
-Withdrawal System : Validates withdrawal requests to ensure sufficient funds and positive amounts before updating the account balance.
+Deposit System :
+
+Allows users to deposit positive amounts into their specified bank accounts with instant balance updates.
+Withdrawal System :
+
+Validates withdrawal requests to ensure sufficient funds and positive amounts before updating the account balance.
 Fund Transfers : Facilitates secure money transfers between two different accounts, automatically logging transfer-in and transfer-out transactions.
-Transaction History Tracking : Keeps a detailed ledger of recent transactions (deposits, withdrawals, and transfers) with timestamps or balance states.
+Transaction History Tracking :
+
+Keeps a detailed ledger of recent transactions (deposits, withdrawals, and transfers) with timestamps or balance states.
 Interactive Console Menu: Provides an easy-to-navigate user interface to perform all banking operations seamlessly.
 
 ---
@@ -38,10 +47,18 @@ Interactive Console Menu: Provides an easy-to-navigate user interface to perform
 
 The project is structured around four primary classes:
 
-1. Transaction : Represents individual financial events, tracking the type of transaction (Deposit, Withdraw, Transfer-In, Transfer-Out), the amount, and the resulting balance[cite: 1].
-2. Account : Manages individual account balances, handles deposit/withdrawal logic, and maintains a vector-based history of transactions[cite: 1].
-3. Customer : Links personal customer details (ID and name) with their corresponding Account object[cite: 1].
-4. Bank: Acts as the controller/manager class handling the collection of customers, search functionality, and overall banking operations (creation, deposits, withdrawals, and transfers)[cite: 1].
+1. Transaction :
+2.
+3.   Represents individual financial events, tracking the type of transaction (Deposit, Withdraw, Transfer-In, Transfer-Out), the amount, and the resulting balance[cite: 1].
+4. Account :
+5.
+6.   Manages individual account balances, handles deposit/withdrawal logic, and maintains a vector-based history of transactions[cite: 1].
+7. Customer :
+8.
+9.   Links personal customer details (ID and name) with their corresponding Account object[cite: 1].
+10. Bank:
+11.
+12. Acts as the controller/manager class handling the collection of customers, search functionality, and overall banking operations (creation, deposits, withdrawals, and transfers)[cite: 1].
 
 ---
 
@@ -58,7 +75,10 @@ Banking System
 4. Transfer Funds
 5. View Account Info
 6. Exit
+7. 
 Enter choice:
+
+
 Create Customer: Enter the account holder's name to generate an account number.
 
 Deposit / Withdraw: Input the target account number and the transaction amount.
