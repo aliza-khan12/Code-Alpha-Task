@@ -27,16 +27,18 @@ A simple, console-based Banking Management System developed in C++ as part of th
 # Features
 
 Customer Account Creation: Automatically generates a unique customer ID and a sequential account number (starting from 1001) for every new user.
+
 Deposit System :
-
 Allows users to deposit positive amounts into their specified bank accounts with instant balance updates.
+
 Withdrawal System :
-
 Validates withdrawal requests to ensure sufficient funds and positive amounts before updating the account balance.
-Fund Transfers : Facilitates secure money transfers between two different accounts, automatically logging transfer-in and transfer-out transactions.
-Transaction History Tracking :
 
+Fund Transfers : Facilitates secure money transfers between two different accounts, automatically logging transfer-in and transfer-out transactions.
+
+Transaction History Tracking :
 Keeps a detailed ledger of recent transactions (deposits, withdrawals, and transfers) with timestamps or balance states.
+
 Interactive Console Menu: Provides an easy-to-navigate user interface to perform all banking operations seamlessly.
 
 ---
@@ -47,16 +49,15 @@ The project is structured around four primary classes:
 
 1. Transaction :
 2.
-3.   Represents individual financial events, tracking the type of transaction (Deposit, Withdraw, Transfer-In, Transfer-Out), the amount, and the resulting balance[cite: 1].
-4. Account :
-5.
-6.   Manages individual account balances, handles deposit/withdrawal logic, and maintains a vector-based history of transactions[cite: 1].
+3.   Represents individual financial events, tracking the type of transaction (Deposit, Withdraw, Transfer-In, Transfer-Out), the amount, and the resulting balance
+4.   
+5. Account :Manages individual account balances, handles deposit/withdrawal logic, and maintains a vector-based history of transactions
+6. 
 7. Customer :
 8.
-9.   Links personal customer details (ID and name) with their corresponding Account object[cite: 1].
-10. Bank:
-11.
-12. Acts as the controller/manager class handling the collection of customers, search functionality, and overall banking operations (creation, deposits, withdrawals, and transfers)[cite: 1].
+9.   Links personal customer details (ID and name) with their corresponding Account object
+10.   
+11. Bank :Acts as the controller/manager class handling the collection of customers, search functionality, and overall banking operations (creation, deposits, withdrawals, and transfers)
 
 ---
 
