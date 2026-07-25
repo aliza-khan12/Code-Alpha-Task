@@ -3,8 +3,10 @@ Welcome to my repository for the Code Alpha internship! This project is a simple
 🚀 About the Project
 This program helps users calculate their Grade Point Average (GPA) or Cumulative Grade Point Average (CGPA) based on the number of courses, grades received, and their respective credit hours.
 🛠️ Features
-Dynamic Input:Asks the user for the total number of courses taken.
-Grade & Credit Mapping: Takes individual course grades (e.g., 4.0, 3.3, 3.0) and credit hours as input.
+Dynamic Input:
+Asks the user for the total number of courses taken.
+Grade & Credit Mapping:
+Takes individual course grades (e.g., 4.0, 3.3, 3.0) and credit hours as input.
 Automated Calculation: Computes the final GPA/CGPA efficiently using arrays and loops.
 💻 Code Structure
 Language: C++
