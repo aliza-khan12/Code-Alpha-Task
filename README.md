@@ -1,4 +1,4 @@
-# Code-Alpha-Tasks
+# CGPA Calculator
 Welcome to my repository for the Code Alpha internship! This project is a simple console-based CGPA Calculator written in C++.
 🚀 About the Project
 This program helps users calculate their Grade Point Average (GPA) or Cumulative Grade Point Average (CGPA) based on the number of courses, grades received, and their respective credit hours.
